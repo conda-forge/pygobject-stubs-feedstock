@@ -1,5 +1,5 @@
 {% set name = "pygobject-stubs" %}
-{% set version = "2.13.0" %}
+{% set version = "2.16.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pygobject_stubs-{{ version }}.tar.gz
-  sha256: 4f608f5dfe10c3173f0a082416e22e27b693743c2a635de245c78a51458e2ab6
+  sha256: a97574616e92ef458605f9520d8d9db4c2a131affcd12fdd51db0b42395291e9
 
 build:
   noarch: python
