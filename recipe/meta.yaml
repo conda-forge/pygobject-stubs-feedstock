@@ -1,5 +1,5 @@
 {% set name = "pygobject-stubs" %}
-{% set version = "2.19.0" %}
+{% set version = "2.20.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/pygobject_stubs-{{ version }}.tar.gz
-  sha256: b6da3fa0f99dbb039f16489994a6e00a5b40c0e4cea5993b9a6c46d0ed5340eb
+  sha256: fd61ebf27a893e3b162e0dfb84d80de92ef33f8fdf144298e178239934bce8df
 
 build:
   noarch: python
